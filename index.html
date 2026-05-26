@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Acreditación y Arancel</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/>
+		<link href="style.css" rel="stylesheet"/>
+        
+    </head>
+    <body>
+        <nav>
+            <div>
+                <span>
+				
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32" fill="#e33e1b">
+						<path d="M5.87,46.78V36.25c0-4.64,2.26-7.58,7.13-7.58H28.5v9H14.92v17C7.9,54.7,5.87,51.87,5.87,46.78Zm0,15.61H19.45V45.19C26.8,45.19,28.5,48,28.5,53V63.64c0,4.75-1.7,7.8-6.79,7.8H5.87Zm30.55,1.25V36.36c0-5.09,2.15-7.8,9-7.8V62.39H50v9H43.21C38.57,71.44,36.42,68.39,36.42,63.64Zm18.11-26H50v-9h6.45c4.75,0,7.13,3.17,7.13,7.8V63.64c0,5-2.38,7.8-9,7.8Zm17,9.17V36.25c0-4.64,2.26-7.58,7.13-7.58h15.5v9H80.55v17C73.54,54.7,71.5,51.87,71.5,46.78Zm0,15.61H85.08V45.19c7.36,0,9,2.83,9,7.81V63.64c0,4.75-1.69,7.8-6.79,7.8H71.5Z"/>
+					</svg>
+                    Not Allowed
+                </span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </div>
+        </nav>
+        
+        <header>
+            <img src="https://www.reuters.com/graphics/IRAN-CRISIS/OIL-CONSUMERS/akpeyynmypr/cdn/images/crown.jpg"/>
+            <h3>DISEÑO EN CHILE</h3>
+            <h1>Acreditación y Arancel</h1>
+            <h2>Una correlación débil en el mercado de la educación superior</h2>
+            <address>Por <a href="#">Constanza Pavez</a>
+            <time>Publicado el 26 de mayo, 2026 06:00 p.m. GMT-4</time>
+        </header>
+
+        <main id="contenedor">
+
+            <p>En Chile, <a href="https://bcn.cl/2ewsw" target="_blank">la ley</a> obliga a acreditarse a las instituciones de educación superior. Carreras, entre las que se cuentan las de Diseño, quedan exentas de esta obligatoriedad.</p>
+
+            <p>Cada acreditación obligatoria e institucional evalúa el cumplimiento del proyecto corporativo y verifica la existencia de mecanismos eficaces de autorregulación y de aseguramiento de la calidad. A partir del resultado de cada evaluación, la <a href="https://www.cnachile.cl/Paginas/Acreditacion-institucional.aspx">Comisión Nacional de Acreditación (<small>CNA</small>)</a> determina el plazo para la próxima, con tres niveles de cumplimiento:</p>
+
+            <ul>
+                <li><em>Acreditada en nivel de excelencia:</em> de 6 a 7 años.</li>
+                <li><em>Acreditada en nivel avanzado:</em> de 4 a 5 años.</li>
+                <li><em>Acreditada en nivel básico:</em> 3 años.</li>
+            </ul>
+
+            <p>Por acotar, podemos <em>revisar las acreditaciones de las universidades</em>, que son las instituciones responsables de ofrecer el 35,82% de las vacantes totales de la educación superior para carreras de Diseño en 2026 (2.717 cupos del total de 7.586, según registros del <a href="https://www.mifuturo.cl/bases-de-datos-de-oferta-academica/" target="_blank">Servicio de Información de Educación Superior, <small>SIES</small></a>).</p>
+
+            <p>Revisando estas acreditaciones, podemos encontrar plazos de acreditación que oscilan entre los 3 y los 7 años.
+            </p>
+
+            <h4>¿Existe una correlación directa entre el nivel de acreditación de una universidad y el costo de su arancel anual?</h4>
+
+            <p>En el siguiente gráfico podemos ver la respuesta.</p>
+
+            <figure>
+                <canvas id="dispersion"></canvas>
+                <figcaption>
+                    Años de acreditación institucional y arancel del programa. Datos 2026, obtenidos del
+                    <a href="https://www.mifuturo.cl/servicio-de-informacion-de-educacion-superior/" target="_blank">Servicio de Información de Educación Superior (SIES)</a>, de la Subsecretaría de Educación Superior y de la <a href="https://www.cnachile.cl/Paginas/Inicio.aspx" target="_blank">Comisión Nacional de Acreditación</a>.
+                </figcaption>
+            </figure>
+
+            <p>Para visualizar patrones en estructuras complejas, los <a href="https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html" target="_blank">diagramas de distribución</a> resultan idóneos. Al proyectar una colección de puntos mediante coordenadas cartesianas, el cruce de las variables en los ejes horizontal y vertical permite detectar la presencia y fuerza de una correlación entre ambas.</p>
+
+            <p>Al trazar una línea de mejor ajuste entre el programa de menor costo y acreditación básica (Diseño de Interiores y Ambientes en la <small>UNIACC</small>) hasta la opción de mayor costo y acreditación (Diseño en la <small>PUC</small>), se observa una pendiente ascendente en la distribución de los puntos. Si bien esto sugiere una correlación positiva, donde un mayor número de años de acreditación tiende a coincidir con aranceles más altos, la fuerza de correlación de débil y los valores atípicos son varios.</p>
+
+            <h4>El siguiente paso le corresponde a usted</h4>
+			
+			 <figure>
+                <canvas id="otro"></canvas>
+                <figcaption>
+                    Años de acreditación institucional y arancel del programa. Datos 2026, obtenidos del
+                    <a href="https://www.mifuturo.cl/servicio-de-informacion-de-educacion-superior/" target="_blank">Servicio de Información de Educación Superior (SIES)</a>, de la Subsecretaría de Educación Superior y de la <a href="https://www.cnachile.cl/Paginas/Inicio.aspx" target="_blank">Comisión Nacional de Acreditación</a>.
+                </figcaption>
+            </figure>
+
+            <p><em>Un subtítulo presenta una pregunta que se responde con una visualización de datos</em>. A continuación, se explica la pertinencia de tal visualización, con apoyo en el <a href="https://datavizcatalogue.com/ES/index.html" target="_blank">Catálogo de Visualización de Datos</a> o la <a href="https://www.visual-literacy.org/periodic_table/periodic_table.html" target="_blank">Tabla Periódica de Métodos de Visualización</a>, que debe estar vinculado. Y se cierra con un comentario para la respuesta visualizada.</p>
+
+            <p>Usted puede modificar el orden de presentación de esta página e incluir, por ejemplo, un preámbulo que pregunte qué entendemos por "carreras de Diseño" o qué tipo de instituciones concentran la mayor parte de las vacantes.</p>
+
+            <p>Otra alternativa es mantener el orden actual para analizar, por ejemplo, el impacto salarial en relación con la inversión en el arancel, o bien transitar hacia preguntas que requieran fuentes oficiales adicionales, tales como el <a href="https://portal.beneficiosestudiantiles.cl/gratuidad#references_tabs_field_asociar_subproceso_tab1" target="_blank">portal de beneficios estudiantiles</a> de la Subsecretaría de Educación Superior si desea abordar la gratuidad.</p>
+
+            <p>Sea que mantenga o modifique el orden, corresponderá revisar la pertinencia de títulos de primer, segundo y cuarto nivel, además de los datos en visualización.</p>
+            
+            <h5>Fuentes</h5>
+            <p>Nombre; Nombre; Nombre</p>
+        </main>
+
+        <footer>
+            <div>
+                <a href="https://www.reuters.com/graphics/IRAN-CRISIS/OIL-CONSUMERS/akpeyynmypr/" target="_blank"
+                    >Inspirado en Reuters</a
+                >
+                <a href="https://github.com/profesorfaco/troncal">Diseño y visualización de información</a>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="script.js"></script>
+    </body>
+</html>
